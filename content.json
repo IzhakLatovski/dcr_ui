@@ -1,0 +1,12 @@
+[
+  {
+    "name": "AWS Certified Cloud Practitioner",
+    "points": 50,
+    "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"
+  },
+  {
+    "name": "AWS Certified Solutions Architect",
+    "points": 200,
+    "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png"
+  }
+]

@@ -61,30 +61,28 @@
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Security-Specialty_badge.75ad1e505c0241bdb321f4c4d9abc51c0109c54f.png"
     }
   ],
-  "categories": {
-    "option1": [
-      { "name": "Sample Card 1", "points": 100, "image": "https://picsum.photos/75?random=1" },
-      { "name": "Sample Card 2", "points": 150, "image": "https://picsum.photos/75?random=2" }
-    ],
-    "option2": [
-      { "name": "Sample Card 3", "points": 200, "image": "https://picsum.photos/75?random=3" },
-      { "name": "Sample Card 4", "points": 250, "image": "https://picsum.photos/75?random=4" }
-    ],
-    "option3": [
-      { "name": "Sample Card 5", "points": 300, "image": "https://picsum.photos/75?random=5" },
-      { "name": "Sample Card 6", "points": 350, "image": "https://picsum.photos/75?random=6" }
-    ],
-    "option4": [
-      { "name": "Sample Card 7", "points": 400, "image": "https://picsum.photos/75?random=7" },
-      { "name": "Sample Card 8", "points": 450, "image": "https://picsum.photos/75?random=8" }
-    ],
-    "option5": [
-      { "name": "Sample Card 9", "points": 500, "image": "https://picsum.photos/75?random=9" },
-      { "name": "Sample Card 10", "points": 550, "image": "https://picsum.photos/75?random=10" }
-    ],
-    "option6": [
-      { "name": "Sample Card 11", "points": 600, "image": "https://picsum.photos/75?random=11" },
-      { "name": "Sample Card 12", "points": 650, "image": "https://picsum.photos/75?random=12" }
-    ]
-  }
+  "option1": [
+    { "name": "Sample Card 1", "points": 100, "image": "https://picsum.photos/75?random=1" },
+    { "name": "Sample Card 2", "points": 150, "image": "https://picsum.photos/75?random=2" }
+  ],
+  "option2": [
+    { "name": "Sample Card 3", "points": 200, "image": "https://picsum.photos/75?random=3" },
+    { "name": "Sample Card 4", "points": 250, "image": "https://picsum.photos/75?random=4" }
+  ],
+  "option3": [
+    { "name": "Sample Card 5", "points": 300, "image": "https://picsum.photos/75?random=5" },
+    { "name": "Sample Card 6", "points": 350, "image": "https://picsum.photos/75?random=6" }
+  ],
+  "option4": [
+    { "name": "Sample Card 7", "points": 400, "image": "https://picsum.photos/75?random=7" },
+    { "name": "Sample Card 8", "points": 450, "image": "https://picsum.photos/75?random=8" }
+  ],
+  "option5": [
+    { "name": "Sample Card 9", "points": 500, "image": "https://picsum.photos/75?random=9" },
+    { "name": "Sample Card 10", "points": 550, "image": "https://picsum.photos/75?random=10" }
+  ],
+  "option6": [
+    { "name": "Sample Card 11", "points": 600, "image": "https://picsum.photos/75?random=11" },
+    { "name": "Sample Card 12", "points": 650, "image": "https://picsum.photos/75?random=12" }
+  ]
 }

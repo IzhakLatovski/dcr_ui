@@ -69,6 +69,36 @@
       "name": "CKS - Certified Kubernetes Security Specialist",
       "points": 400,
       "image": "https://images.credly.com/size/680x680/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png"
+    },
+    {
+      "name": "Hasicorp Terraform Associate",
+      "points": 100,
+      "image": "https://images.credly.com/size/680x680/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob"
+    },
+    {
+      "name": "GitHub Foundations",
+      "points": 50,
+      "image": "https://images.credly.com/size/680x680/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png"
+    },
+    {
+      "name": "GitHub Copilot",
+      "points": 50,
+      "image": "https://images.credly.com/size/680x680/images/6b924fae-3cd7-4233-b012-97413c62c85d/blob"
+    },
+    {
+      "name": "GitHub Advanced Security",
+      "points": 100,
+      "image": "https://images.credly.com/size/680x680/images/c9ed294b-f8ac-48fa-a8c3-96dab1f110f2/image.png"
+    },
+    {
+      "name": "GitHub Actions",
+      "points": 125,
+      "image": "https://images.credly.com/size/680x680/images/89efc3e7-842b-4790-b09b-9ea5efc71ec3/image.png"
+    },
+    {
+      "name": "GitHub Administration",
+      "points": 125,
+      "image": "https://images.credly.com/size/680x680/images/34880f37-8ec8-4542-a78a-73ba6647208e/image.png"
     }
   ],
   "option1": [

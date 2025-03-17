@@ -4,16 +4,19 @@
       "name": "AWS Certified Cloud Practitioner",
       "points": 50,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified AI Practitioner",
       "points": 50,
       "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified SysOps Administrator",
       "points": 250,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-SysOps-Administrator-Associate_badge.c3586b02748654fb588633314dd66a1d6841893b.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified Developer",
@@ -24,41 +27,49 @@
       "name": "AWS Certified Solutions Architect",
       "points": 200,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified Data Engineer",
       "points": 300,
       "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-Data-Engineer-Associate_badge_300x300.a231ff0ff32a28adf061d3f7fa36564964b4a4b5.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified Machine Learning Engineer",
       "points": 300,
       "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-Machine-Learning-Engineer-Associate_badge_300x300.765d89ecbf75f371b057aefba731fb5e724cd092.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified Solutions Architect Professional",
       "points": 400,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Professional_badge.69d82ff1b2861e1089539ebba906c70b011b928a.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified DevOps Engineer Professional",
       "points": 400,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-DevOps-Engineer-Professional_badge.7492bf660b5351e51f3f8015e4818924294a7e8c.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified Advanced Networking Speciality",
       "points": 400,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Advanced-Networking-Specialty_badge.e09a4e04210dd4dd57ace21344af66986d4b4dc7.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified Machine Learning Speciality",
       "points": 400,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Machine-Learning-Specialty_badge.e5d66b56552bbf046f905bacaecef6dad0ae7180.png"
+      "category": "AWS"
     },
     {
       "name": "AWS Certified Security Speciality",
       "points": 350,
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Security-Specialty_badge.75ad1e505c0241bdb321f4c4d9abc51c0109c54f.png"
+      "category": "AWS"
     },
     {
       "name": "CKA - Certified Kubernetes Administrator",

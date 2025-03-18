@@ -61,6 +61,46 @@
       "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Security-Specialty_badge.75ad1e505c0241bdb321f4c4d9abc51c0109c54f.png"
     },
     {
+      "name": "GCP Associate Cloud Engineer",
+      "points": 250,
+      "image": "https://images.credly.com/size/680x680/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png"
+    },
+    {
+      "name": "GCP Cloud Database Engineer",
+      "points": 400,
+      "image": "https://images.credly.com/size/680x680/images/275e69a5-33a8-4d9c-bad4-2bdc0dfb7d40/image.png"
+    },
+    {
+      "name": "GCP Professional Cloud DevOps Engineer",
+      "points": 400,
+      "image": "https://images.credly.com/size/680x680/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png"
+    },
+    {
+      "name": "GCP Cloud Architect Professional",
+      "points": 400,
+      "image": "https://images.credly.com/size/680x680/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png"
+    },
+    {
+      "name": "GCP Machine Learning Engineer",
+      "points": 400,
+      "image": "https://images.credly.com/size/680x680/images/05e71e7e-92a1-4821-8530-4176b2e3c4b4/image.png"
+    },
+    {
+      "name": "GCP Cloud Network Engineer",
+      "points": 400,
+      "image": "https://images.credly.com/size/680x680/images/08a802bf-f2fa-44fb-8110-92acf6195738/image.png"
+    },
+    {
+      "name": "GCP Data Engineer",
+      "points": 400,
+      "image": "https://miro.medium.com/v2/resize:fit:520/1*7nTsfZaGccJFKI8t7YyuPQ.png"
+    },
+    {
+      "name": "GCP Google Security Engineer",
+      "points": 350,
+      "image": "https://images.credly.com/size/680x680/images/4ea0ec5c-6258-4c26-9282-6ed233c0c7ac/image.png"
+    },
+    {
       "name": "CKA - Certified Kubernetes Administrator",
       "points": 200,
       "image": "https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"

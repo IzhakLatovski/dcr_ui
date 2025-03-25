@@ -1,0 +1,30 @@
+- The quarters:
+January- March (will be received in April salary, at the beginning of May).
+April-June (will be received in July salary, at the beginning of August).
+July- September (will be received in October salary, at the beginning of November).
+October- December (will be received in January salary, at the beginning of February).
+
+
+If you have reached more points than needed in order to level up (i.e. you need 1000 to level up and you have 1100) the points are saved for the next level! Points are not wasted 😉
+
+
+Billable hours can't cross the maximum count - if you set the Billable hours to 515 and you got 520, it's still 515. Also, the extra hours aren't saved for the next level.
+
+
+
+Level	Points to Level Up	months	aggregate
+1	850	    4	4
+2	850	    4	8
+3	1000	5	13
+4	1000	5	18
+5	1200	6	24
+6	1200	6	30
+7	1500	8	38
+8	1500	8	46
+9	1700	8	54
+10	1700	8	62
+11	2000	10	72
+12	2000	10	82
+13	2000	10	92
+14	2000	10	102
+15	2000	10	112

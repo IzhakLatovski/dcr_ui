@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "Billable Hour",
+      "points": 1,
+      "image": "https://us.123rf.com/450wm/09910190/099101901605/09910190160500051/56921378-time-is-money-clock-with-silver-coin-dollar-money-silver-and-business-and-earning-vector-flat.jpg?ver=6"
+    },
+    {
+      "name": "Points from previous level",
+      "points": 1,
+      "image": "https://cdn-icons-png.flaticon.com/512/1052/1052854.png"
+    }
+  ]
+}

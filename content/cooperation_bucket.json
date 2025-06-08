@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "name": "Architecture: analyze, create, mentor & present",
+      "points": 100,
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"
+    },
+    {
+      "name": "Interview training (interviewer)",
+      "points": 30,
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+    },
+    {
+      "name": "Peer code reviewer",
+      "points": 10,
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+    },
+    {
+      "name": "Peer code reviewee",
+      "points": 10,
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+    },
+    {
+      "name": "Buddies",
+      "points": 40,
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+    },
+    {
+      "name": "Support forum approved solution",
+      "points": 30,
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+    },
+    {
+      "name": "Support forum answer (not approved as solution)",
+      "points": 15,
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+    },
+    {
+      "name": "Points from the previous level - Cooperation",
+      "points": 1,
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+    }
+  ]
+}

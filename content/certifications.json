@@ -238,7 +238,12 @@
     {
       "name": "CompTIA Network+ ce",
       "points": 150,
-      "image": "https://images.credly.com/size/680x680/images/e1fc05b2-959b-45a4-8d20-124b1df121fe/CompTIA_Network_2Bce.png"
+      "image": "https://images.credly.com/size/680x680/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob"
+    },
+    {
+      "name": "Professional Scrum Master",
+      "points": 100,
+      "image": "https://images.credly.com/size/680x680/images/a2790314-008a-4c3d-9553-f5e84eb359ba/image.png"
     }
   ]
 }

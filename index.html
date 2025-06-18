@@ -1,287 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DCR</title>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png" />
 
     <meta name="csrf-param" content="authenticity_token" />
-    <meta name="csrf-token" content="KSK5ASXvDR-jY8XMQjGRUbJPEBqbGggW3YUBxQlHWzOpl5lJp5kJAZSz8HRQ2VTujVYOieUgteyIfGU2MHMr8A" />
-    
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
-    <link href="https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <meta
+      name="csrf-token"
+      content="KSK5ASXvDR-jY8XMQjGRUbJPEBqbGggW3YUBxQlHWzOpl5lJp5kJAZSz8HRQ2VTujVYOieUgteyIfGU2MHMr8A"
+    />
 
-    <link rel="stylesheet" href="styles/cards.css">
-    <link rel="stylesheet" href="styles/index.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/cards.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
     <div class="layout has-sidebar fixed-sidebar fixed-header">
-        <aside id="sidebar" class="sidebar break-point-sm has-bg-image">
-          <a id="btn-collapse" class="sidebar-collapser"><i class="ri-arrow-left-s-line"></i></a>
-          <div class="sidebar-layout">
-            <div class="sidebar-header">
-              <div class="pro-sidebar-logo">
-                <div>D</div>
-                <h5>DCR Portal</h5>
-              </div>
+      <!-- Left side main menu -->
+      <!----------------------------------------------->
+      <aside id="sidebar" class="sidebar break-point-sm has-bg-image">
+        <a id="btn-collapse" class="sidebar-collapser"
+          ><i class="ri-arrow-left-s-line"></i
+        ></a>
+        <div class="sidebar-layout">
+          <div class="sidebar-header">
+            <div class="pro-sidebar-logo">
+              <div>D</div>
+              <h5>DCR Portal</h5>
             </div>
-            <div class="sidebar-content">
-              <nav class="menu open-current-submenu">
-                <ul>
-                  <li class="menu-header"><span>My DCR</span></li>
-      
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-user-3-fill"></i>
-                      </span>
-                      <span class="menu-title"><s>Personal account</s></span>
-                      <span class="menu-suffix">
-                        <span class="badge secondary">SOON</span>
-                      </span>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-shopping-cart-2-line"></i>
-                      </span>
-                      <span class="menu-title"><s>Cart</s></span>
-                      <span class="menu-suffix">
-                        <span class="badge secondary">SOON</span>
-                      </span>
-                    </a>
-                  </li>
-      
-                  <li class="menu-header"><span>DCR Catalog</span></li>
-      
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-list-ordered"></i>
-                      </span>
-                      <span class="menu-title">Basic points</span>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-file-list-3-line"></i>
-                      </span>
-                      <span class="menu-title">Certifications</span>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-code-box-line"></i>
-                      </span>
-                      <span class="menu-title">Tech</span>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-edit-2-line"></i>
-                      </span>
-                      <span class="menu-title">Content</span>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-align-bottom"></i>
-                      </span>
-                      <span class="menu-title">Internal</span>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-dashboard-line"></i>
-                      </span>
-                      <span class="menu-title">Other</span>
-                    </a>
-                  </li>
-      
-                  <li class="menu-header" style="padding-top: 20px"><span> EXTRA </span></li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-file-text-line"></i>
-                      </span>
-                      <span class="menu-title">DCR guidelines</span>
-                      <span class="menu-suffix">
-                        <span class="badge primary">?</span>
-                      </span>
-                    </a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-questionnaire-line"></i>
-                      </span>
-                      <span class="menu-title">Q&A</span>
-                      <span class="menu-suffix">
-                        <span class="badge primary">?</span>
-                      </span>
-                    </a>
-                  </li>
-                  <li class="menu-item sub-menu">
-                    <a href="#">
-                      <span class="menu-icon">
-                        <i class="ri-list-check-2"></i>
-                      </span>
-                      <span class="menu-title">Forms</span>
-                    </a>
-                    <div class="sub-menu-list">
-                      <ul>
-                        <li class="menu-item">
-                          <a href="#">
-                            <span class="menu-title">Register a certification</span>
-                          </a>
-                        </li>
-                        <li class="menu-item">
-                          <a href="#">
-                            <span class="menu-title">Register buddles</span>
-                          </a>
-                        </li>
-                        <li class="menu-item">
-                          <a href="#">
-                            <span class="menu-title">Suggest a new certification</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="sidebar-footer">
-              <div class="footer-box">
-                Izhak Latovski
-              </div>
+            <div id="cart-icon" class="cart-button">
+              <i class="ri-shopping-cart-2-line"></i>
+              <span id="cart-count" class="badge-cart">0</span>
             </div>
           </div>
-        </aside>
-      
-        <div id="overlay" class="overlay"></div>
-        <div class="layout">
-          <main class="content">
-            <div>
-              <a id="btn-toggle" href="#" class="sidebar-toggler break-point-sm">
-                <i class="ri-menu-line ri-xl"></i>
-              </a>
-            </div>
+          <div class="sidebar-content">
+            <nav class="menu open-current-submenu">
+              <ul>
+                <li class="menu-header"><span>My DCR</span></li>
 
-            <div>
-              <a id="btn-toggle" href="#" class="sidebar-toggler break-point-sm">
-                <i class="ri-menu-line ri-xl"></i>
-              </a>
-            </div>
+                <li class="menu-item" id="sidebar-cart">
+                  <a href="javascript:void(0)" id="cart-icon">
+                    <span class="menu-icon"
+                      ><i class="ri-shopping-cart-2-line"></i
+                    ></span>
+                    <span class="menu-title">Cart</span>
+                    <span class="menu-suffix">
+                      <span class="badge secondary" id="cart-summary"
+                        >0 items / 0 pts</span
+                      >
+                    </span>
+                  </a>
+                </li>
 
-            <section id="content-home" class="menu-content">
-              <h1>Welcome to DCR Portal</h1>
-              <p>This month/quarter, the promoted items are:</p>
-              <p>1. GitHub Actions certification +20 points</p>
-              <p>2. Publishing an article to the magazine +15 points</p>
-            </section>
-          
-            <!-- Sections for each menu item (initially hidden) -->
-            <section id="content-basic-points" class="menu-content" style="display: none;">
-              <div class="container">
-                <div class="card-grid"></div>
-              </div>
-            </section>
-          
-            <section id="content-certifications" class="menu-content" style="display: none;">
-              <div class="container">
-                <div class="sort-container">
-                  <span>Sort by:</span>
-                  <button class="sort-button selected" id="sort-category">Category</button>
-                  <button class="sort-button" id="sort-points-desc">Points ▼</button>
-                  <button class="sort-button" id="sort-points-asc">Points ▲</button>
-                </div>
-                <div class="card-grid" id="content-area"></div>
-              </div>
-              <div id="slide-menu" class="slide-menu">
-                <button class="close-btn" onclick="closeMenu()">&times;</button>
-                <img id="menu-image" src="" alt="Certificate Image">
-                <h2 id="menu-title"></h2>
-                <div id="menu-points" class="menu-points"></div>
-                
-                <p><strong>Duration:</strong> <span id="menu-duration"></span></p>
-                <p><strong>Price:</strong> <span id="menu-price"></span></p>
-                <p><strong>Passing Grade:</strong> <span id="menu-passing-grade"></span></p>
-                <p><strong>Structure:</strong> <span id="menu-structure"></span></p>
-                <p><strong>Results:</strong> <span id="menu-results"></span></p>
-                <p><strong>Scheduling:</strong> <span id="menu-scheduling"></span></p>
-                <p><strong>Expiration:</strong> <span id="menu-expiration"></span></p>
-                <p><strong>Prerequisites:</strong> <span id="menu-prerequisites"></span></p>
-                
-                <p><strong>People Who Have It:</strong></p>
-                <ul id="menu-people"></ul>
-                
-                <p><strong>Study Resources:</strong></p>
-                <ul id="menu-study-resources"></ul>
-                
-                <p><a id="menu-link" href="#" target="_blank">Official Certification Page</a></p>
-              </div>
-            </section>
-          
-            <section id="content-tech" class="menu-content" style="display: none;">
-              <h1>Tech</h1>
-              <p>Latest technology updates.</p>
-            </section>
-          
-            <section id="content-content" class="menu-content" style="display: none;">
-              <h1>Content</h1>
-              <p>Here is the content-related section.</p>
-            </section>
-          
-            <section id="content-internal" class="menu-content" style="display: none;">
-              <h1>Internal</h1>
-              <p>Internal DCR information.</p>
-            </section>
-          
-            <section id="content-other" class="menu-content" style="display: none;">
-              <h1>Other</h1>
-              <p>Miscellaneous information.</p>
-            </section>
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-user-3-fill"></i>
+                    </span>
+                    <span class="menu-title"><s>Personal account</s></span>
+                    <span class="menu-suffix">
+                      <span class="badge secondary">SOON</span>
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-shopping-cart-2-line"></i>
+                    </span>
+                    <span class="menu-title"><s>Cart</s></span>
+                    <span class="menu-suffix">
+                      <span class="badge secondary">SOON</span>
+                    </span>
+                  </a>
+                </li>
 
-            <section id="content-dcr-guidelines" class="menu-content" style="display: none;">
-              <h1>dcr-guidelines</h1>
-              <p>dcr-guidelines.</p>
-            </section>
+                <li class="menu-header"><span>DCR Pillars</span></li>
 
-            <section id="content-q&a" class="menu-content" style="display: none;">
-              <h1>Q&A</h1>
-              <p>Q&A.</p>
-            </section>
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-code-box-line"></i>
+                    </span>
+                    <span class="menu-title">Certifications</span>
+                  </a>
+                </li>
 
-            <section id="content-register-a-certification" class="menu-content" style="display: none;">
-              <h1>Register a certification</h1>
-              <p>Register a certification.</p>
-            </section>
-            
-            <section id="content-register-buddles" class="menu-content" style="display: none;">
-              <h1>Register buddles</h1>
-              <p>Register buddles.</p>
-            </section>
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-service-line"></i>
+                    </span>
+                    <span class="menu-title">Cooperation</span>
+                  </a>
+                </li>
 
-            <section id="content-suggest-a-new-certification" class="menu-content" style="display: none;">
-              <h1>Suggest a new certification</h1>
-              <p>Suggest a new certification.</p>
-            </section>
-          </main>
-          <div class="overlay"></div>
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-edit-2-line"></i>
+                    </span>
+                    <span class="menu-title">Knowledge Unlocking</span>
+                  </a>
+                </li>
+
+                <li class="menu-header" style="padding-top: 20px">
+                  <span> EXTRA </span>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-file-text-line"></i>
+                    </span>
+                    <span class="menu-title">DCR guidelines</span>
+                    <span class="menu-suffix">
+                      <span class="badge primary">?</span>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-questionnaire-line"></i>
+                    </span>
+                    <span class="menu-title">Q&A</span>
+                    <span class="menu-suffix">
+                      <span class="badge primary">?</span>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="menu-item sub-menu">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-list-check-2"></i>
+                    </span>
+                    <span class="menu-title">Forms</span>
+                  </a>
+                  <div class="sub-menu-list">
+                    <ul>
+                      <li class="menu-item">
+                        <a href="#">
+                          <span class="menu-title"
+                            >Register a certification</span
+                          >
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#">
+                          <span class="menu-title">Register buddles</span>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#">
+                          <span class="menu-title"
+                            >Suggest a new certification</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="sidebar-footer">
+            <div class="footer-box">Izhak Latovski</div>
+          </div>
         </div>
-      </div>
+      </aside>
 
-  <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script src="scripts/index.js"></script>
-  <script src="scripts/cards.js"></script>
-</body>
+      <div id="overlay" class="overlay"></div>
+      <div class="layout">
+        <main class="content">
+          <div>
+            <a id="btn-toggle" href="#" class="sidebar-toggler break-point-sm">
+              <i class="ri-menu-line ri-xl"></i>
+            </a>
+          </div>
+
+          <div>
+            <a id="btn-toggle" href="#" class="sidebar-toggler break-point-sm">
+              <i class="ri-menu-line ri-xl"></i>
+            </a>
+          </div>
+
+          <section id="content-home" class="menu-content">
+            <h1>Welcome to DCR Portal</h1>
+            <p>This month/quarter, the promoted items are:</p>
+            <p>1. GitHub Actions certification +20 points</p>
+            <p>2. Publishing an article to the magazine +15 points</p>
+          </section>
+
+          <!-- Certifications -->
+          <!----------------------------------------------->
+          <section
+            id="content-certifications"
+            class="menu-content"
+            style="display: none"
+          >
+            <div class="container">
+              <div class="sort-container">
+                <span>Sort by:</span>
+                <button class="sort-button selected" id="sort-category">
+                  Category
+                </button>
+                <button class="sort-button" id="sort-points-desc">
+                  Points ▼
+                </button>
+                <button class="sort-button" id="sort-points-asc">
+                  Points ▲
+                </button>
+              </div>
+              <div class="card-grid" id="content-area"></div>
+            </div>
+            <div id="slide-menu-certifications" class="slide-menu">
+              <button
+                class="close-btn"
+                onclick="document.getElementById('slide-menu-certifications').classList.remove('open')"
+              >
+                &times;
+              </button>
+              <img id="menu-image" src="" alt="Certificate Image" />
+              <h2 id="menu-title"></h2>
+              <div id="menu-points" class="menu-points"></div>
+
+              <p><strong>Duration:</strong> <span id="menu-duration"></span></p>
+              <p><strong>Price:</strong> <span id="menu-price"></span></p>
+              <p>
+                <strong>Passing Grade:</strong>
+                <span id="menu-passing-grade"></span>
+              </p>
+              <p>
+                <strong>Structure:</strong> <span id="menu-structure"></span>
+              </p>
+              <p><strong>Results:</strong> <span id="menu-results"></span></p>
+              <p>
+                <strong>Scheduling:</strong> <span id="menu-scheduling"></span>
+              </p>
+              <p>
+                <strong>Expiration:</strong> <span id="menu-expiration"></span>
+              </p>
+              <p>
+                <strong>Prerequisites:</strong>
+                <span id="menu-prerequisites"></span>
+              </p>
+
+              <p><strong>People Who Have It:</strong></p>
+              <ul id="menu-people"></ul>
+
+              <p><strong>Study Resources:</strong></p>
+              <ul id="menu-study-resources"></ul>
+
+              <p>
+                <a id="menu-link" href="#" target="_blank"
+                  >Official Certification Page</a
+                >
+              </p>
+            </div>
+          </section>
+
+          <!-- Cooperation -->
+          <!----------------------------------------------->
+          <section
+            id="content-cooperation"
+            class="menu-content"
+            style="display: none"
+          >
+            <div class="container">
+              <div class="sort-container">
+                <span>Sort by:</span>
+                <button class="sort-button selected" id="sort-category">
+                  Category
+                </button>
+                <button class="sort-button" id="sort-points-desc">
+                  Points ▼
+                </button>
+                <button class="sort-button" id="sort-points-asc">
+                  Points ▲
+                </button>
+              </div>
+              <div class="card-grid" id="content-area"></div>
+            </div>
+            <div id="slide-menu-cooperation" class="slide-menu">
+              <button
+                class="close-btn"
+                onclick="document.getElementById('slide-menu-cooperation').classList.remove('open')"
+              >
+                &times;
+              </button>
+              <img id="menu-image" src="" alt="Certificate Image" />
+              <h2 id="menu-title"></h2>
+              <div id="menu-points" class="menu-points"></div>
+
+              <p><strong>Duration:</strong> <span id="menu-duration"></span></p>
+              <p><strong>Price:</strong> <span id="menu-price"></span></p>
+              <p>
+                <strong>Passing Grade:</strong>
+                <span id="menu-passing-grade"></span>
+              </p>
+              <p>
+                <strong>Structure:</strong> <span id="menu-structure"></span>
+              </p>
+              <p><strong>Results:</strong> <span id="menu-results"></span></p>
+              <p>
+                <strong>Scheduling:</strong> <span id="menu-scheduling"></span>
+              </p>
+              <p>
+                <strong>Expiration:</strong> <span id="menu-expiration"></span>
+              </p>
+              <p>
+                <strong>Prerequisites:</strong>
+                <span id="menu-prerequisites"></span>
+              </p>
+
+              <p><strong>People Who Have It:</strong></p>
+              <ul id="menu-people"></ul>
+
+              <p><strong>Study Resources:</strong></p>
+              <ul id="menu-study-resources"></ul>
+
+              <p>
+                <a id="menu-link" href="#" target="_blank"
+                  >Official Certification Page</a
+                >
+              </p>
+            </div>
+          </section>
+
+          <!-- Knowledge unlocking -->
+          <!----------------------------------------------->
+          <section
+            id="content-knowledge-unlocking"
+            class="menu-content"
+            style="display: none"
+          >
+            <div class="container">
+              <div class="sort-container">
+                <span>Sort by:</span>
+                <button class="sort-button selected" id="sort-category">
+                  Category
+                </button>
+                <button class="sort-button" id="sort-points-desc">
+                  Points ▼
+                </button>
+                <button class="sort-button" id="sort-points-asc">
+                  Points ▲
+                </button>
+              </div>
+              <div class="card-grid" id="content-area"></div>
+            </div>
+            <div id="slide-menu-knowledge-unlocking" class="slide-menu">
+              <button
+                class="close-btn"
+                onclick="document.getElementById('slide-menu-knowledge-unlocking').classList.remove('open')"
+              >
+                &times;
+              </button>
+              <img id="menu-image" src="" alt="Certificate Image" />
+              <h2 id="menu-title"></h2>
+              <div id="menu-points" class="menu-points"></div>
+
+              <p><strong>Duration:</strong> <span id="menu-duration"></span></p>
+              <p><strong>Price:</strong> <span id="menu-price"></span></p>
+              <p>
+                <strong>Passing Grade:</strong>
+                <span id="menu-passing-grade"></span>
+              </p>
+              <p>
+                <strong>Structure:</strong> <span id="menu-structure"></span>
+              </p>
+              <p><strong>Results:</strong> <span id="menu-results"></span></p>
+              <p>
+                <strong>Scheduling:</strong> <span id="menu-scheduling"></span>
+              </p>
+              <p>
+                <strong>Expiration:</strong> <span id="menu-expiration"></span>
+              </p>
+              <p>
+                <strong>Prerequisites:</strong>
+                <span id="menu-prerequisites"></span>
+              </p>
+
+              <p><strong>People Who Have It:</strong></p>
+              <ul id="menu-people"></ul>
+
+              <p><strong>Study Resources:</strong></p>
+              <ul id="menu-study-resources"></ul>
+
+              <p>
+                <a id="menu-link" href="#" target="_blank"
+                  >Official Certification Page</a
+                >
+              </p>
+            </div>
+          </section>
+
+          <!-- Guidelines -->
+          <!----------------------------------------------->
+          <section
+            id="content-dcr-guidelines"
+            class="menu-content"
+            style="display: none"
+          >
+            <h1>dcr-guidelines</h1>
+            <p>dcr-guidelines.</p>
+          </section>
+
+          <!-- QnA -->
+          <!----------------------------------------------->
+          <section id="content-qna" class="menu-content" style="display: none">
+            <h1>Q&A</h1>
+            <p>Q&A.</p>
+          </section>
+
+          <!-- Forms -->
+          <!----------------------------------------------->
+          <section
+            id="content-register-a-certification"
+            class="menu-content"
+            style="display: none"
+          >
+            <h1>Register a certification</h1>
+            <p>Register a certification.</p>
+          </section>
+
+          <section
+            id="content-register-buddles"
+            class="menu-content"
+            style="display: none"
+          >
+            <h1>Register buddles</h1>
+            <p>Register buddles.</p>
+          </section>
+
+          <section
+            id="content-suggest-a-new-certification"
+            class="menu-content"
+            style="display: none"
+          >
+            <h1>Suggest a new certification</h1>
+            <p>Suggest a new certification.</p>
+          </section>
+        </main>
+        <div class="overlay"></div>
+      </div>
+    </div>
+
+    <!-- Cart -->
+    <div id="cart-menu" class="slide-menu cart-slide">
+      <button
+        class="close-btn"
+        onclick="document.getElementById('cart-menu').classList.remove('open')"
+      >
+        &times;
+      </button>
+      <h2>Achievement Cart</h2>
+      <div id="cart-contents"></div>
+      <button onclick="clearCart()" class="clear-btn">Clear Cart</button>
+    </div>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/cart.js"></script>
+  </body>
 </html>

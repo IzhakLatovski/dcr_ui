@@ -1,172 +1,218 @@
 const contentArea = document.getElementById("content-area");
-    const slideMenu = document.getElementById("slide-menu");
-    const menuImage = document.getElementById("menu-image");
-    const menuTitle = document.getElementById("menu-title");
-    const menuPoints = document.getElementById("menu-points");
 
-    let certificationsData = []; // Store fetched data for sorting
-    let sortAscending = true; // Track sorting state
+function setupSection(jsonFile, contentId, slideMenuId) {
+  let sectionData = [];
 
-    async function fetchData(jsonFile, contentId) {
-      try {
-        const response = await fetch(jsonFile, { cache: "no-cache" });
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        const data = await response.json();
-        
-        if (contentId === "content-certifications") {
-          certificationsData = data.items; // Store data for sorting
-        }
-    
-        renderCards(data.items, contentId);
-      } catch (error) {
-        console.error(`Error fetching ${jsonFile}:`, error);
-        document.getElementById(contentId).innerHTML = `<p style="color: red;">Failed to load data from ${jsonFile}.</p>`;
-      }
+  // Fetch data from the JSON file
+  async function fetchData() {
+    try {
+      const response = await fetch(jsonFile, { cache: "no-cache" });
+      if (!response.ok)
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      const data = await response.json();
+
+      sectionData = data.items;
+      renderCards(data.items);
+    } catch (error) {
+      console.error(`Error fetching ${jsonFile}:`, error);
+      document.getElementById(
+        contentId
+      ).innerHTML = `<p style="color: red;">Failed to load data from ${jsonFile}.</p>`;
+    }
+  }
+
+  // Renders card elements from a given dataset
+  function renderCards(cards) {
+    const contentArea = document.querySelector(`#${contentId} .card-grid`);
+    if (!contentArea) return;
+
+    contentArea.innerHTML = "";
+    if (!cards || cards.length === 0) {
+      contentArea.innerHTML = `<p style="color: gray;">No items found.</p>`;
+      return;
     }
 
-    function renderCards(cards, contentId) {
-      const contentArea = document.querySelector(`#${contentId} .card-grid`);
-      if (!contentArea) return;
-      
-      contentArea.innerHTML = "";
-      if (!cards || cards.length === 0) {
-        contentArea.innerHTML = `<p style="color: gray;">No items found.</p>`;
-        return;
-      }
-    
-      cards.forEach(card => {
-        const cardDiv = document.createElement("div");
-        cardDiv.className = "card";
-        cardDiv.innerHTML = `
-          <img src="${card.image}" alt="${card.name} Badge">
-          <h2>${card.name}</h2>
-          <div class="points">Points: ${card.points}</div>
-        `;
-        cardDiv.addEventListener("click", () => openMenu(card));
-        contentArea.appendChild(cardDiv);
-      });
-    }
+    // Create and inject card elements into the DOM
+    cards.forEach((card) => {
+      const cardDiv = document.createElement("div");
+      cardDiv.className = "card";
+      cardDiv.innerHTML = `
+        <img src="${card.image}" alt="${card.name} Badge">
+        <h2>${card.name}</h2>
+        <div class="points-container">
+          <div class="points-text">Points: ${card.points}</div>
+          <div class="add-circle">+</div>
+        </div>
+      `;
+      cardDiv.addEventListener("click", () => openMenu(card));
+      contentArea.appendChild(cardDiv);
+    });
+  }
 
-    function openMenu(card) {
-      menuImage.src = card.image;
-      menuTitle.textContent = card.name;
-      menuPoints.textContent = `Points: ${card.points}`;
-      
-      document.getElementById("menu-duration").textContent = card.duration || "N/A";
-      document.getElementById("menu-price").textContent = card.price || "N/A";
-      document.getElementById("menu-passing-grade").textContent = card.passing_grade || "N/A";
-      document.getElementById("menu-structure").textContent = card.structure || "N/A";
-      document.getElementById("menu-results").textContent = card.results || "N/A";
-      document.getElementById("menu-scheduling").textContent = card.scheduling || "N/A";
-      document.getElementById("menu-expiration").textContent = card.expiration || "N/A";
-      document.getElementById("menu-prerequisites").textContent = card.prerequisites || "N/A";
-    
-      // Populate people who have it
-      const peopleList = document.getElementById("menu-people");
-      peopleList.innerHTML = "";
-      if (card.people_who_have_it && card.people_who_have_it.length > 0) {
-        card.people_who_have_it.forEach(person => {
-          const li = document.createElement("li");
-          li.textContent = person;
-          peopleList.appendChild(li);
-        });
+  // Opens a slide-out menu with detailed information about a card
+  function openMenu(card) {
+    const slideMenu = document.getElementById(slideMenuId);
+    // Populate the slide menu fields with card data
+    slideMenu.querySelector("#menu-image").src = card.image;
+    slideMenu.querySelector("#menu-title").textContent = card.name;
+    slideMenu.querySelector(
+      "#menu-points"
+    ).textContent = `Points: ${card.points}`;
+    slideMenu.querySelector("#menu-duration").textContent =
+      card.duration || "N/A";
+    slideMenu.querySelector("#menu-price").textContent = card.price || "N/A";
+    slideMenu.querySelector("#menu-passing-grade").textContent =
+      card.passing_grade || "N/A";
+    slideMenu.querySelector("#menu-structure").textContent =
+      card.structure || "N/A";
+    slideMenu.querySelector("#menu-results").textContent =
+      card.results || "N/A";
+    slideMenu.querySelector("#menu-scheduling").textContent =
+      card.scheduling || "N/A";
+    slideMenu.querySelector("#menu-expiration").textContent =
+      card.expiration || "N/A";
+    slideMenu.querySelector("#menu-prerequisites").textContent =
+      card.prerequisites || "N/A";
+
+    // Populate list of people who hold the item
+    const peopleList = slideMenu.querySelector("#menu-people");
+    peopleList.innerHTML = "";
+    (card.people_who_have_it || ["N/A"]).forEach((person) => {
+      const li = document.createElement("li");
+      li.textContent = person;
+      peopleList.appendChild(li);
+    });
+
+    // Populate list of study resources
+    const resourcesList = slideMenu.querySelector("#menu-study-resources");
+    resourcesList.innerHTML = "";
+    (card.study_resources || ["N/A"]).forEach((resource) => {
+      const li = document.createElement("li");
+      li.textContent = resource;
+      resourcesList.appendChild(li);
+    });
+
+    // Show link if available
+    const linkElement = slideMenu.querySelector("#menu-link");
+    linkElement.href = card.link || "#";
+    linkElement.style.display = card.link ? "block" : "none";
+
+    // Open the menu
+    slideMenu.classList.add("open");
+
+    function showIfAvailable(selector, value) {
+      const el = slideMenu.querySelector(selector);
+      const wrapper = el.closest("p");
+      if (value) {
+        wrapper.style.display = "block";
+        el.textContent = value;
       } else {
-        peopleList.innerHTML = "<li>N/A</li>";
+        wrapper.style.display = "none";
       }
-    
-      // Populate study resources
-      const resourcesList = document.getElementById("menu-study-resources");
-      resourcesList.innerHTML = "";
-      if (card.study_resources && card.study_resources.length > 0) {
-        card.study_resources.forEach(resource => {
-          const li = document.createElement("li");
-          li.textContent = resource;
-          resourcesList.appendChild(li);
-        });
-      } else {
-        resourcesList.innerHTML = "<li>N/A</li>";
-      }
-    
-      // Set certification link
-      const linkElement = document.getElementById("menu-link");
-      linkElement.href = card.link || "#";
-      linkElement.style.display = card.link ? "block" : "none";
-    
-      slideMenu.classList.add("open");
-    }
-    
-
-    function closeMenu() {
-      slideMenu.classList.remove("open");
     }
 
-    fetchData().then(data => {
-      if (data) renderCards(data.certifications);
-    });
+    showIfAvailable("#menu-duration", card.duration);
+    showIfAvailable("#menu-price", card.price);
+    showIfAvailable("#menu-passing-grade", card.passing_grade);
+    showIfAvailable("#menu-structure", card.structure);
+    showIfAvailable("#menu-results", card.results);
+    showIfAvailable("#menu-scheduling", card.scheduling);
+    showIfAvailable("#menu-expiration", card.expiration);
+    showIfAvailable("#menu-prerequisites", card.prerequisites);
+  }
 
-    document.addEventListener("DOMContentLoaded", function () {
-      const menuItems = document.querySelectorAll(".menu-item a");
+  // Closes the slide menu
+  function closeMenu() {
+    document.getElementById(slideMenuId).classList.remove("open");
+  }
+
+  // Global click listener to close if clicked outside
+  document.addEventListener("click", function (event) {
+    const slideMenu = document.getElementById(slideMenuId);
+    const isClickInsideMenu = slideMenu.contains(event.target);
+    const isClickOnCard = event.target.closest(".card");
+    if (!isClickInsideMenu && !isClickOnCard) closeMenu();
+  });
+
+  // Sorting buttons
+  const sortAsc = document.querySelector(`#${contentId} #sort-points-asc`);
+  const sortDesc = document.querySelector(`#${contentId} #sort-points-desc`);
+  const sortCategory = document.querySelector(`#${contentId} #sort-category`);
+
+  if (sortAsc && sortDesc && sortCategory) {
+    function updateSortSelection(activeButton) {
+      [sortAsc, sortDesc, sortCategory].forEach((btn) =>
+        btn.classList.remove("selected")
+      );
+      activeButton.classList.add("selected");
+    }
     
-      menuItems.forEach(item => {
-        item.addEventListener("click", function (event) {
-          event.preventDefault();
+    sortAsc.addEventListener("click", function () {
+      sectionData.sort((a, b) => a.points - b.points);
+      renderCards(sectionData);
+      updateSortSelection(sortAsc);
+    });
     
-          const menuTitle = item.querySelector(".menu-title").textContent.trim().toLowerCase().replace(/\s+/g, "-");
-          const contentId = `content-${menuTitle}`;
-          const jsonFile = `content/${menuTitle}.json`; // Dynamic JSON file
+    sortDesc.addEventListener("click", function () {
+      sectionData.sort((a, b) => b.points - a.points);
+      renderCards(sectionData);
+      updateSortSelection(sortDesc);
+    });
     
-          // Hide all content sections
-          document.querySelectorAll(".menu-content").forEach(section => {
-            section.style.display = "none";
-          });
-    
-          // Show the selected section
-          const selectedContent = document.getElementById(contentId);
-          if (selectedContent) {
-            selectedContent.style.display = "block";
-            
-            // Fetch data for this specific section
-            fetchData(jsonFile, contentId);
-          }
-        });
+    sortCategory.addEventListener("click", function () {
+      fetchData(); // reload original
+      updateSortSelection(sortCategory);
+    });
+  }
+
+  return { fetchData };
+}
+
+// Set up each content section with its JSON data and associated slide menu
+const sections = {
+  certifications: setupSection(
+    "content/certifications.json",
+    "content-certifications",
+    "slide-menu-certifications"
+  ),
+  cooperation: setupSection(
+    "content/cooperation.json",
+    "content-cooperation",
+    "slide-menu-cooperation"
+  ),
+  "knowledge-unlocking": setupSection(
+    "content/knowledge-unlocking.json",
+    "content-knowledge-unlocking",
+    "slide-menu-knowledge-unlocking"
+  ),
+};
+
+// Listen for menu clicks and load respective JSON
+document.addEventListener("DOMContentLoaded", function () {
+  const menuItems = document.querySelectorAll(".menu-item a");
+  menuItems.forEach((item) => {
+    item.addEventListener("click", function (event) {
+      event.preventDefault();
+      const menuTitle = item
+        .querySelector(".menu-title")
+        .textContent.trim()
+        .toLowerCase()
+        .replace(/\s+/g, "-");
+      const contentId = `content-${menuTitle}`;
+
+      // Hide all content sections
+      document.querySelectorAll(".menu-content").forEach((section) => {
+        section.style.display = "none";
       });
-    });
 
-    document.addEventListener("DOMContentLoaded", function () {
-      const buttons = document.querySelectorAll(".sort-button");
-    
-      function setActiveButton(selectedButton) {
-        buttons.forEach(button => button.classList.remove("selected"));
-        selectedButton.classList.add("selected");
+      // Show the selected content section and load its data
+      const selectedContent = document.getElementById(contentId);
+      if (selectedContent) {
+        selectedContent.style.display = "block";
+        if (sections[menuTitle]) {
+          sections[menuTitle].fetchData();
+        }
       }
-    
-      document.getElementById("sort-category").addEventListener("click", function () {
-        fetchData("content/certifications.json", "content-certifications"); // Reload original JSON order
-        setActiveButton(this);
-      });
-    
-      document.getElementById("sort-points-asc").addEventListener("click", function () {
-        certificationsData.sort((a, b) => a.points - b.points);
-        renderCards(certificationsData, "content-certifications");
-        setActiveButton(this);
-      });
-    
-      document.getElementById("sort-points-desc").addEventListener("click", function () {
-        certificationsData.sort((a, b) => b.points - a.points);
-        renderCards(certificationsData, "content-certifications");
-        setActiveButton(this);
-      });
     });
-
-    document.addEventListener("click", function (event) {
-      const isClickInsideMenu = slideMenu.contains(event.target);
-      const isClickOnCard = event.target.closest(".card");
-      
-      // Close the menu if clicking outside and not on a certification card
-      if (!isClickInsideMenu && !isClickOnCard) {
-        closeMenu();
-      }
-    });
-    
+  });
+});

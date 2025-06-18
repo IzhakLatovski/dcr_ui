@@ -1,0 +1,89 @@
+.cart-button {
+  position: relative;
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.badge-cart {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  background: #ff4757;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 12px;
+}
+
+#cart-menu {
+  position: fixed;
+  right: -400px;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  background: white;
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: right 0.3s ease-in-out;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#cart-menu.open {
+  right: 0;
+}
+
+/* Cart sidebar */
+.cart-slide {
+  z-index: 1001;
+}
+
+/* Cart summary badge */
+#cart-summary {
+  font-size: 0.7rem;
+  background: #16a085;
+  color: #fff;
+  border-radius: 12px;
+  padding: 2px 6px;
+}
+
+/* Toast message */
+.toast-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(30px);
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  opacity: 0;
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.toast-message.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.slide-menu {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100vh;
+  background: white;
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  overflow-y: auto;
+  z-index: 1001; /* Ensure it's on top */
+}
+
+.slide-menu.open {
+  right: 0;
+}

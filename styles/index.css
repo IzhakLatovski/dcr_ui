@@ -72,7 +72,11 @@
 }
 
 @keyframes swing {
-  0%, 30%, 50%, 70%, 100% {
+  0%,
+  30%,
+  50%,
+  70%,
+  100% {
     transform: rotate(0deg);
   }
   10% {
@@ -186,7 +190,9 @@
 .layout .sidebar .menu > ul > .sub-menu > .sub-menu-list {
   background-color: #0b1a2c;
 }
-.layout .sidebar .menu.icon-shape-circle .menu-item a .menu-icon, .layout .sidebar .menu.icon-shape-rounded .menu-item a .menu-icon, .layout .sidebar .menu.icon-shape-square .menu-item a .menu-icon {
+.layout .sidebar .menu.icon-shape-circle .menu-item a .menu-icon,
+.layout .sidebar .menu.icon-shape-rounded .menu-item a .menu-icon,
+.layout .sidebar .menu.icon-shape-square .menu-item a .menu-icon {
   background-color: #0b1a2c;
 }
 .layout .sidebar .menu.icon-shape-circle .menu-item a .menu-icon {
@@ -198,7 +204,12 @@
 .layout .sidebar .menu.icon-shape-square .menu-item a .menu-icon {
   border-radius: 0;
 }
-.layout .sidebar:not(.collapsed) .menu > ul > .menu-item.sub-menu > .sub-menu-list {
+.layout
+  .sidebar:not(.collapsed)
+  .menu
+  > ul
+  > .menu-item.sub-menu
+  > .sub-menu-list {
   visibility: visible !important;
   position: static !important;
   transform: translate(0, 0) !important;
@@ -236,10 +247,17 @@
 .layout .sidebar.collapsed .menu > ul > .menu-item.active > a::after {
   background-color: #dee2ec;
 }
-.layout .sidebar.has-bg-image .menu.icon-shape-circle .menu-item a .menu-icon, .layout .sidebar.has-bg-image .menu.icon-shape-rounded .menu-item a .menu-icon, .layout .sidebar.has-bg-image .menu.icon-shape-square .menu-item a .menu-icon {
+.layout .sidebar.has-bg-image .menu.icon-shape-circle .menu-item a .menu-icon,
+.layout .sidebar.has-bg-image .menu.icon-shape-rounded .menu-item a .menu-icon,
+.layout .sidebar.has-bg-image .menu.icon-shape-square .menu-item a .menu-icon {
   background-color: rgba(11, 26, 44, 0.6);
 }
-.layout .sidebar.has-bg-image:not(.collapsed) .menu > ul > .sub-menu > .sub-menu-list {
+.layout
+  .sidebar.has-bg-image:not(.collapsed)
+  .menu
+  > ul
+  > .sub-menu
+  > .sub-menu-list {
   background-color: rgba(11, 26, 44, 0.6);
 }
 .layout.rtl .sidebar .menu .menu-item a .menu-icon {
@@ -260,7 +278,12 @@
   right: auto;
   left: 10px;
 }
-.layout.rtl .sidebar.collapsed .menu > ul > .menu-item.sub-menu > .sub-menu-list {
+.layout.rtl
+  .sidebar.collapsed
+  .menu
+  > ul
+  > .menu-item.sub-menu
+  > .sub-menu-list {
   margin-left: -3px !important;
 }
 
@@ -301,7 +324,7 @@ a {
   color: white;
   font-size: 24px;
   font-weight: 700;
-  background-color: #FFB100;
+  background-color: #ffb100;
   margin-right: 10px;
 }
 .layout .sidebar .pro-sidebar-logo > h5 {
@@ -401,4 +424,4 @@ a {
 .social-links a {
   margin: 0 10px;
   color: #3f4750;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

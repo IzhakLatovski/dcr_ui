@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "name": "Peer reviewer",
+      "points": 10,
+      "image": "https://cdn-icons-png.flaticon.com/512/6404/6404558.png"
+    },
+    {
+      "name": "Peer reviewee",
+      "points": 10,
+      "image": "https://cdn-icons-png.flaticon.com/512/6404/6404558.png"
+    },
+    {
+      "name": "Support forum approved solution",
+      "points": 20,
+      "image": "https://media.istockphoto.com/id/1557600957/vector/diverse-human-hands-holding-speech-bubbles-people-talking-exchange-ideas-team-cooperation.jpg?s=612x612&w=0&k=20&c=Z4ux7eLRgJyQwjSmX5enBuxix3IEqpoq9UvLq0FQVys="
+    },
+    {
+      "name": "Support forum answer (not approved as solution)",
+      "points": 10,
+      "image": "https://media.istockphoto.com/id/1557600957/vector/diverse-human-hands-holding-speech-bubbles-people-talking-exchange-ideas-team-cooperation.jpg?s=612x612&w=0&k=20&c=Z4ux7eLRgJyQwjSmX5enBuxix3IEqpoq9UvLq0FQVys="
+    },
+    {
+      "name": "Architecture: Analyze, Create, Mentor & Present",
+      "points": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr2yxaE4NGO8y_dZtwfoiq4AGL3U6H_NN_TowPiHMTOeZcBjmr0Eg5qZ3aKyRBEbvMOkg&usqp=CAU"
+    },
+    {
+      "name": "Buddies",
+      "points": 70,
+      "image": "https://cdn-icons-png.flaticon.com/512/2179/2179260.png"
+    },
+    {
+      "name": "Interview Training (interviewer)",
+      "points": 40,
+      "image": "https://www.majerrecruitment.com.au/wp-content/uploads/2018/11/shutterstock_512032090-2048x2048.jpg"
+    }
+  ]
+}

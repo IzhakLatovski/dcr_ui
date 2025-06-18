@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "name": "External articles",
+      "points": 20,
+      "image": "https://www.articleforge.com/images/about/ai-article-writer.png"
+    },
+    {
+      "name": "Short form texts",
+      "points": 20,
+      "image": "https://www.articleforge.com/images/about/ai-article-writer.png"
+    },
+    {
+      "name": "How-to technical guides",
+      "points": 50,
+      "image": "https://www.articleforge.com/images/about/ai-article-writer.png"
+    },
+    {
+      "name": "Research, creative, innovative articles",
+      "points": 100,
+      "image": "https://thumbs.dreamstime.com/b/illustration-vector-graphic-cartoon-character-innovative-creative-idea-project-thinking-mind-imagination-work-research-284789793.jpg"
+    },
+    {
+      "name": "Internal speaking at develeap",
+      "points": 40,
+      "image": "https://cdn.pixabay.com/photo/2024/05/12/20/26/public-8757616_640.png"
+    },
+    {
+      "name": "Public speaking: webinar",
+      "points": 100,
+      "image": "https://cdn.pixabay.com/photo/2024/05/12/20/26/public-8757616_640.png"
+    },
+    {
+      "name": "Public speaking: lecture/talk",
+      "points": 100,
+      "image": "https://cdn.pixabay.com/photo/2024/05/12/20/26/public-8757616_640.png"
+    },
+    {
+      "name": "Podcast management",
+      "points": 60,
+      "image": "https://www.culturehive.co.uk/wp-content/uploads/2022/05/PodcastShoestring.jpg"
+    }
+  ]
+}

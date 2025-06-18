@@ -1,7 +1,9 @@
 if (typeof Popper === "undefined") {
-    console.error("🚨 Popper.js is not loaded. Make sure it's included before index.js");
+  console.error(
+    "🚨 Popper.js is not loaded. Make sure it's included before index.js"
+  );
 } else {
-    console.log("✅ Popper.js is loaded");
+  console.log("✅ Popper.js is loaded");
 }
 
 const ANIMATION_DURATION = 300;
@@ -40,16 +42,16 @@ class PopperObject {
         {
           name: "computeStyles",
           options: {
-            adaptive: false
-          }
+            adaptive: false,
+          },
         },
         {
           name: "flip",
           options: {
-            fallbackPlacements: ["left", "right"]
-          }
-        }
-      ]
+            fallbackPlacements: ["left", "right"],
+          },
+        },
+      ],
     });
 
     document.addEventListener(
@@ -266,18 +268,22 @@ document.addEventListener("DOMContentLoaded", function () {
   const menuItems = document.querySelectorAll(".menu-item a");
 
   // Add event listener to each menu item
-  menuItems.forEach(item => {
+  menuItems.forEach((item) => {
     item.addEventListener("click", function (event) {
       event.preventDefault(); // Prevent default link behavior
 
       // Get the menu title (text inside <span class="menu-title">)
-      const menuTitle = item.querySelector(".menu-title").textContent.trim().toLowerCase().replace(/\s+/g, "-");
+      const menuTitle = item
+        .querySelector(".menu-title")
+        .textContent.trim()
+        .toLowerCase()
+        .replace(/\s+/g, "-");
 
       // Create the corresponding content ID (e.g., "certifications" → "content-certifications")
       const contentId = `content-${menuTitle}`;
 
       // Hide all sections
-      document.querySelectorAll(".menu-content").forEach(section => {
+      document.querySelectorAll(".menu-content").forEach((section) => {
         section.style.display = "none";
       });
 

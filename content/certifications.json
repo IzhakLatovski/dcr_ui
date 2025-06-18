@@ -3,162 +3,499 @@
     {
       "name": "AWS Certified Cloud Practitioner",
       "points": 50,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png",
+      "link": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "duration": "1.5 hours",
+      "price": "100$",
+      "passing_grade": "",
+      "structure": "65 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified AI Practitioner",
       "points": 50,
-      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png"
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-AI-Practitioner_badge_300x300.85cea45137696692de99a72934f6ddb81f82fc12.png",
+      "link": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+      "duration": "1.5 hours",
+      "price": "100$",
+      "passing_grade": "",
+      "structure": "65 questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified SysOps Administrator",
       "points": 250,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-SysOps-Administrator-Associate_badge.c3586b02748654fb588633314dd66a1d6841893b.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-SysOps-Administrator-Associate_badge.c3586b02748654fb588633314dd66a1d6841893b.png",
+      "link": "https://aws.amazon.com/certification/certified-sysops-admin-associate/",
+      "duration": "130 minutes",
+      "price": "150$",
+      "passing_grade": "",
+      "structure": "65 questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Developer",
       "points": 275,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Developer-Associate_badge.5c083fa855fe82c1cf2d0c8b883c265ec72a17c0.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Developer-Associate_badge.5c083fa855fe82c1cf2d0c8b883c265ec72a17c0.png",
+      "link": "https://aws.amazon.com/certification/certified-developer-associate/",
+      "duration": "130 minutes",
+      "price": "150$",
+      "passing_grade": "",
+      "structure": "65 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Solutions Architect",
       "points": 200,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png",
+      "link": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+      "duration": "130 minutes",
+      "price": "150$",
+      "passing_grade": "",
+      "structure": "65 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Data Engineer",
       "points": 300,
-      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-Data-Engineer-Associate_badge_300x300.a231ff0ff32a28adf061d3f7fa36564964b4a4b5.png"
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-Data-Engineer-Associate_badge_300x300.a231ff0ff32a28adf061d3f7fa36564964b4a4b5.png",
+      "link": "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+      "duration": "130 minutes",
+      "price": "150$",
+      "passing_grade": "",
+      "structure": "65 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Machine Learning Engineer",
       "points": 300,
-      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-Machine-Learning-Engineer-Associate_badge_300x300.765d89ecbf75f371b057aefba731fb5e724cd092.png"
+      "image": "https://d1.awsstatic.com/certification/badges/AWS-Certified-Machine-Learning-Engineer-Associate_badge_300x300.765d89ecbf75f371b057aefba731fb5e724cd092.png",
+      "link": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+      "duration": "130 minutes",
+      "price": "150$",
+      "passing_grade": "",
+      "structure": "65 questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Solutions Architect Professional",
       "points": 400,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Professional_badge.69d82ff1b2861e1089539ebba906c70b011b928a.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Professional_badge.69d82ff1b2861e1089539ebba906c70b011b928a.png",
+      "link": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+      "duration": "3 hours",
+      "price": "300$",
+      "passing_grade": "",
+      "structure": "75 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified DevOps Engineer Professional",
       "points": 400,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-DevOps-Engineer-Professional_badge.7492bf660b5351e51f3f8015e4818924294a7e8c.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-DevOps-Engineer-Professional_badge.7492bf660b5351e51f3f8015e4818924294a7e8c.png",
+      "link": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+      "duration": "3 hours",
+      "price": "300$",
+      "passing_grade": "",
+      "structure": "75 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Advanced Networking Speciality",
       "points": 400,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Advanced-Networking-Specialty_badge.e09a4e04210dd4dd57ace21344af66986d4b4dc7.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Advanced-Networking-Specialty_badge.e09a4e04210dd4dd57ace21344af66986d4b4dc7.png",
+      "link": "https://aws.amazon.com/certification/certified-advanced-networking-specialty/",
+      "duration": "170 minutes",
+      "price": "300$",
+      "passing_grade": "",
+      "structure": "65 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Machine Learning Speciality",
       "points": 400,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Machine-Learning-Specialty_badge.e5d66b56552bbf046f905bacaecef6dad0ae7180.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Machine-Learning-Specialty_badge.e5d66b56552bbf046f905bacaecef6dad0ae7180.png",
+      "link": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+      "duration": "3 hours",
+      "price": "300$",
+      "passing_grade": "",
+      "structure": "65 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "AWS Certified Security Speciality",
       "points": 350,
-      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Security-Specialty_badge.75ad1e505c0241bdb321f4c4d9abc51c0109c54f.png"
+      "image": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Security-Specialty_badge.75ad1e505c0241bdb321f4c4d9abc51c0109c54f.png",
+      "link": "https://aws.amazon.com/certification/certified-security-specialty/",
+      "duration": "170 minutes",
+      "price": "300$",
+      "passing_grade": "",
+      "structure": "65 questions, multiple choice or multiple response",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Azure Administrator Associate",
       "points": 200,
-      "image": "https://img-c.udemycdn.com/open-badges/v2/badge-class/2082659861/azure-administrator-associate-600x60014067246547753667656.png"
+      "image": "https://img-c.udemycdn.com/open-badges/v2/badge-class/2082659861/azure-administrator-associate-600x60014067246547753667656.png",
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification",
+      "duration": "100 minutes",
+      "price": "83$ (Israel)",
+      "passing_grade": "Scale of 1 to 1,000. A passing score is 700 (~70%)",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Azure Developer",
       "points": 200,
-      "image": "https://www.glasspaper.no/globalassets/it-pro-kategori-sider/microsoft/azure-developer-associate.png"
+      "image": "https://www.glasspaper.no/globalassets/it-pro-kategori-sider/microsoft/azure-developer-associate.png",
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification",
+      "duration": "100 minutes",
+      "price": "83$ (Israel)",
+      "passing_grade": "Scale of 1 to 1,000. A passing score is 700 (~70%)",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Azure AI Engineer",
       "points": 300,
-      "image": "https://www.hugobarona.com/ai-100-study-guidedesigning-and-implementing-an-azure-ai-solution/featured-image.png"
+      "image": "https://www.hugobarona.com/ai-100-study-guidedesigning-and-implementing-an-azure-ai-solution/featured-image.png",
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification",
+      "duration": "100 minutes",
+      "price": "83$ (Israel)",
+      "passing_grade": "Scale of 1 to 1,000. A passing score is 700 (~70%)",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Azure Data Scientist",
       "points": 300,
-      "image": "https://images.credly.com/images/5c8fca38-b0d2-49e5-9ad2-f3f8e79b327f/azure-data-scientist-associate-600x600.png"
+      "image": "https://images.credly.com/images/5c8fca38-b0d2-49e5-9ad2-f3f8e79b327f/azure-data-scientist-associate-600x600.png",
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/?practice-assessment-type=certification",
+      "duration": "100 minutes",
+      "price": "83$ (Israel)",
+      "passing_grade": "Scale of 1 to 1,000. A passing score is 700 (~70%)",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
-    {
-      "name": "Azure Data Engineer",
-      "points": 300,
-      "image": "https://www.kevinrchant.com/wp-content/uploads/2021/05/microsoft-certified-azure-data-engineer-associate.png"
-    },
+
     {
       "name": "Azure Security Engineer",
       "points": 300,
-      "image": "https://images.credly.com/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png"
+      "image": "https://images.credly.com/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png",
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/?practice-assessment-type=certification",
+      "duration": "",
+      "price": "83$ (Israel)",
+      "passing_grade": "Scale of 1 to 1,000. A passing score is 700 (~70%)",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Azure Solutions Architect Expert",
       "points": 450,
-      "image": "https://kevinhakanson.com/static/3e970253558c410b2fe0d1a7cefa8f3d/0a47e/azure-solutions-architect-expert-600x600.png"
+      "image": "https://kevinhakanson.com/static/3e970253558c410b2fe0d1a7cefa8f3d/0a47e/azure-solutions-architect-expert-600x600.png",
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+      "duration": "100 minutes",
+      "price": "83$ (Israel)",
+      "passing_grade": "Scale of 1 to 1,000. A passing score is 700 (~70%)",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "Microsoft Certified: Azure Administrator Associate",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Azure DevOps Engineer Expert",
       "points": 450,
-      "image": "https://i0.wp.com/www.kevinrchant.com/wp-content/uploads/2020/06/microsoft-certified-devops-engineer-expert.png?fit=600%2C600&ssl=1"
+      "image": "https://i0.wp.com/www.kevinrchant.com/wp-content/uploads/2020/06/microsoft-certified-devops-engineer-expert.png?fit=600%2C600&ssl=1",
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/#certification-prerequisites",
+      "duration": "100 minutes",
+      "price": "83$ (Israel)",
+      "passing_grade": "Scale of 1 to 1,000. A passing score is 700 (~70%)",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "",
+      "prerequisites": "Microsoft Certified: Azure Administrator Associate, Microsoft Certified: Azure Developer Associate",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Associate Cloud Engineer",
       "points": 250,
-      "image": "https://images.credly.com/size/680x680/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png"
+      "image": "https://images.credly.com/size/680x680/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png",
+      "link": "https://cloud.google.com/learn/certification/cloud-engineer/",
+      "duration": "2 hours",
+      "price": "125$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "3 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Cloud Database Engineer",
       "points": 400,
-      "image": "https://images.credly.com/size/680x680/images/275e69a5-33a8-4d9c-bad4-2bdc0dfb7d40/image.png"
+      "image": "https://images.credly.com/size/680x680/images/275e69a5-33a8-4d9c-bad4-2bdc0dfb7d40/image.png",
+      "link": "https://cloud.google.com/learn/certification/cloud-database-engineer/",
+      "duration": "2 hours",
+      "price": "200$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Professional Cloud DevOps Engineer",
       "points": 400,
-      "image": "https://images.credly.com/size/680x680/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png"
+      "image": "https://images.credly.com/size/680x680/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png",
+      "link": "https://cloud.google.com/learn/certification/cloud-devops-engineer/",
+      "duration": "2 hours",
+      "price": "200$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Cloud Architect Professional",
       "points": 400,
-      "image": "https://images.credly.com/size/680x680/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png"
+      "image": "https://images.credly.com/size/680x680/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png",
+      "link": "https://cloud.google.com/learn/certification/cloud-architect/",
+      "duration": "2 hours",
+      "price": "200$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Machine Learning Engineer",
       "points": 400,
-      "image": "https://images.credly.com/size/680x680/images/05e71e7e-92a1-4821-8530-4176b2e3c4b4/image.png"
+      "image": "https://images.credly.com/size/680x680/images/05e71e7e-92a1-4821-8530-4176b2e3c4b4/image.png",
+      "link": "https://cloud.google.com/learn/certification/machine-learning-engineer/",
+      "duration": "2 hours",
+      "price": "200$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Cloud Network Engineer",
       "points": 400,
-      "image": "https://images.credly.com/size/680x680/images/08a802bf-f2fa-44fb-8110-92acf6195738/image.png"
+      "image": "https://images.credly.com/size/680x680/images/08a802bf-f2fa-44fb-8110-92acf6195738/image.png",
+      "link": "https://cloud.google.com/learn/certification/cloud-network-engineer/",
+      "duration": "2 hours",
+      "price": "200$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Data Engineer",
       "points": 400,
-      "image": "https://miro.medium.com/v2/resize:fit:520/1*7nTsfZaGccJFKI8t7YyuPQ.png"
+      "image": "https://miro.medium.com/v2/resize:fit:520/1*7nTsfZaGccJFKI8t7YyuPQ.png",
+      "link": "https://cloud.google.com/learn/certification/data-engineer/",
+      "duration": "2 hours",
+      "price": "200$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GCP Google Security Engineer",
       "points": 350,
-      "image": "https://images.credly.com/size/680x680/images/4ea0ec5c-6258-4c26-9282-6ed233c0c7ac/image.png"
+      "image": "https://images.credly.com/size/680x680/images/4ea0ec5c-6258-4c26-9282-6ed233c0c7ac/image.png",
+      "link": "https://cloud.google.com/learn/certification/cloud-security-engineer/",
+      "duration": "2 hours",
+      "price": "200$",
+      "passing_grade": "70%",
+      "structure": "50-60 multiple choice and multiple select questions",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "CKA - Certified Kubernetes Administrator",
       "points": 200,
-      "image": "https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+      "image": "https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png",
+      "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
+      "duration": "2 hours",
+      "price": "445$",
+      "passing_grade": "67%",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "None",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "CKS - Certified Kubernetes Security Specialist",
       "points": 400,
-      "image": "https://images.credly.com/size/680x680/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png"
+      "image": "https://images.credly.com/size/680x680/images/9945dfcb-1cca-4529-85e6-db1be3782210/kubernetes-security-specialist-logo2.png",
+      "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
+      "duration": "2 hours",
+      "price": "445$",
+      "passing_grade": "67%",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "CKA - Certified Kubernetes Administrator",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Hashicorp Terraform Associate",
       "points": 100,
-      "image": "https://images.credly.com/size/680x680/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob"
+      "image": "https://images.credly.com/size/680x680/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob",
+      "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/",
+      "duration": "1 hour",
+      "price": "70$",
+      "passing_grade": "70%",
+      "structure": "Multiple choice",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "Hashicorp Vault Associate",
       "points": 100,
-      "image": "https://images.credly.com/size/680x680/images/db3ed794-8b04-48c0-a49e-3e1f64e78b55/blob"
+      "image": "https://images.credly.com/size/680x680/images/db3ed794-8b04-48c0-a49e-3e1f64e78b55/blob",
+      "link": "https://developer.hashicorp.com/certifications/security-automation",
+      "duration": "1 hour",
+      "price": "70$",
+      "passing_grade": "67%",
+      "structure": "",
+      "results": "",
+      "scheduling": "",
+      "expiration": "2 years",
+      "prerequisites": "",
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GitHub Foundations",
@@ -188,12 +525,8 @@
       "scheduling": "In their website, have time slots almost everyday, the whole day",
       "expiration": "Without expiration",
       "prerequisites": "None",
-      "people_who_have_it": ["Izhak Latovski", "Jane Smith", "DevOps Engineer"],
-      "study_resources": [
-        "Kubernetes Official Documentation",
-        "CKA Udemy Course",
-        "Kubernetes the Hard Way"
-      ]
+      "people_who_have_it": [],
+      "study_resources": []
     },
     {
       "name": "GitHub Administration",
@@ -238,7 +571,12 @@
     {
       "name": "CompTIA Network+ ce",
       "points": 150,
-      "image": "https://images.credly.com/size/680x680/images/e1fc05b2-959b-45a4-8d20-124b1df121fe/CompTIA_Network_2Bce.png"
+      "image": "https://images.credly.com/size/680x680/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob"
+    },
+    {
+      "name": "Professional Scrum Master",
+      "points": 100,
+      "image": "https://images.credly.com/size/680x680/images/a2790314-008a-4c3d-9553-f5e84eb359ba/image.png"
     }
   ]
 }
